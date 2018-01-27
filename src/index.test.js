@@ -1,5 +1,5 @@
 import gucciGang from '.'
 
-test('does the thing', async () => {
-  expect(await gucciGang()).toMatchSnapshot()
+test('renders ASCII art image of Lil Pump', async () => {
+  expect(await gucciGang({ width: 120, height: 40 })).toMatchSnapshot()
 })
