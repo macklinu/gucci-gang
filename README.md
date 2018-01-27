@@ -10,6 +10,8 @@
 
 ## Installation
 
+Under the hood, this package relies on `canvas`, so you may need to install Cairo and Pango as stated in the [installation section of their README](https://github.com/Automattic/node-canvas#installation). Then you can install `gucci-gang`:
+
 ```
 npm install gucci-gang
 ```
