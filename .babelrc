@@ -1,0 +1,3 @@
+{
+  "presets": ["mdu-scripts/babel", "flow"]
+}

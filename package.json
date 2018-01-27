@@ -1,0 +1,42 @@
+{
+  "name": "gucci-gang",
+  "version": "0.0.0-development",
+  "description":
+    "Gucci gang, Gucci gang, Gucci gang, Gucci gang, Gucci gang, Gucci gang, Gucci gang",
+  "main": "dist/index.js",
+  "bin": "dist/cli.js",
+  "files": ["dist"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/macklinu/gucci-gang.git"
+  },
+  "keywords": ["gucci-gang", "gucci", "gang"],
+  "author": "Macklin Underdown <macklinu@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/macklinu/gucci-gang/issues"
+  },
+  "homepage": "https://github.com/macklinu/gucci-gang#readme",
+  "scripts": {
+    "precommit": "mdu-scripts precommit",
+    "build": "mdu-scripts build",
+    "test": "mdu-scripts test",
+    "lint": "mdu-scripts lint",
+    "prepublish": "npm run build",
+    "semantic-release": "semantic-release",
+    "travis-deploy-once": "travis-deploy-once"
+  },
+  "dependencies": {
+    "ascii-art": "^1.4.2",
+    "aspectratio": "^2.2.2",
+    "window-size": "^1.1.0"
+  },
+  "devDependencies": {
+    "babel-preset-flow": "^6.23.0",
+    "flow-bin": "^0.64.0",
+    "husky": "^0.14.3",
+    "mdu-scripts": "^2.0.0",
+    "semantic-release": "^12.2.5",
+    "travis-deploy-once": "^4.3.3"
+  }
+}
