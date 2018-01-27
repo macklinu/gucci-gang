@@ -18,7 +18,7 @@ The simplest way to use this package is to use the CLI:
 $ npx gucci-gang
 ```
 
-This will print an ASCII art picture of [Lil Pump](https://twitter.com/lilpump) to your terminal, like so
+This will print an ASCII art picture of [Lil Pump](https://twitter.com/lilpump) to your terminal, like so:
 
 ![](./screenshots/gucci-gang.png)
 
